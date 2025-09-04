@@ -4,6 +4,8 @@ Silksong officially supports up to 21:9, but 32:9 users get black bars.
 This patched `Assembly-CSharp.dll` removes the aspect ratio cap so the game runs correctly in 32:9.  
 Tested at **5120×1440** and **3840×1080** (Xbox Game Pass release).
 
+![Silksong in 32:9](image.png)
+
 ## Install
 1. Backup your original: `Hollow Knight- Silksong\Content\Hollow Knight Silksong_Data\Managed\Assembly-CSharp.dll`
 2. Replace it with the patched `Assembly-CSharp.dll`.

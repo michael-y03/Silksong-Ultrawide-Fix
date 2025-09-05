@@ -12,7 +12,6 @@ Tested at **5120×1440** and **3840×1080** (Xbox Game Pass release).
 3. Launch the game and enjoy!
 
 ## Notes
-- Slight vignette/darkening still visible at the far edges (to be fixed later).
 - May need re-patching after official updates.
 
 ## Nexus Mods

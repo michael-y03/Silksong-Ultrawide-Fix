@@ -1,8 +1,8 @@
-# Hollow Knight: Silksong – 32:9 Ultrawide Fix
+# Hollow Knight: Silksong – Ultrawide Fix
 
-Silksong officially supports up to 21:9, but 32:9 users get black bars.  
-This patched `Assembly-CSharp.dll` removes the aspect ratio cap so the game runs correctly in 32:9.  
-Tested at **5120×1440** and **3840×1080**.
+Silksong officially supports up to 21:9, but users with larger aspect ratios get black bars.  
+
+This patched `Assembly-CSharp.dll` removes the aspect ratio cap so the game runs correctly on larger screens.  
 ✔️ Works with both **Steam** and **Game Pass** releases.
 
 ![Silksong in 32:9](image.png)

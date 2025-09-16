@@ -2,7 +2,7 @@
 
 Silksong officially supports up to 21:9, but users with larger aspect ratios get black bars.  
 
-This patched `Assembly-CSharp.dll` removes the aspect ratio cap so the game runs correctly on larger screens.  
+This tool patches your local Assembly-CSharp.dll to remove the aspect ratio cap so the game runs correctly on larger screens.
 ✔️ Works with both **Steam** and **Game Pass** releases.
 
 ![Silksong in 32:9](image.png)
@@ -10,10 +10,12 @@ This patched `Assembly-CSharp.dll` removes the aspect ratio cap so the game runs
 ---
 
 ## Install (Easy Way)
-1. **Backup your original**:  
-   `Hollow Knight- Silksong\Content\Hollow Knight Silksong_Data\Managed\Assembly-CSharp.dll`
-2. Replace it with the patched `Assembly-CSharp.dll`.
-3. Launch the game and enjoy!
+
+1. Run the patcher:
+   `python patch_silksong_ultrawide.py "...\Hollow Knight- Silksong\Content\Hollow Knight Silksong_Data\Managed\Assembly-CSharp.dll"`
+2. Launch the game and enjoy!
+
+Revert: restore the .bak file created alongside the DLL.
 
 ## DIY
 If you’d rather patch your own DLL (useful if combining with other mods):  
@@ -26,7 +28,8 @@ If you’d rather patch your own DLL (useful if combining with other mods):
 ---
 
 ## Notes
-- Game updates overwrite `Assembly-CSharp.dll`, so this fix may need to be reapplied after patches. 
+- Game updates overwrite `Assembly-CSharp.dll`, so this fix may need to be reapplied after patches.
+- This repository does not redistribute game files; the patcher modifies your local copy only.
 
 ## Nexus Mods
  - https://www.nexusmods.com/hollowknightsilksong/mods/1
